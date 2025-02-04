@@ -80,7 +80,7 @@ function downloadParts() {
       filename=$(basename "$url")
       echo -e "(${GREEN}Downloading: ${YELLOW}${filename}${RESET})"
 
-      if wget "$url" -O "$filename"; then
+      if wget -q "$url" -O "$filename"; then
           downloaded_files=$((downloaded_files + 1))
           echo -e "${GREEN}Download Success: ${YELLOW}${filename} ${GREEN}✅${RESET}"
       else

@@ -1,0 +1,3 @@
+#! /bin/ash
+
+wine64 /opt/lip/lip.exe $@

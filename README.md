@@ -33,6 +33,8 @@ bash levibox/run.sh
 
 - Make sure you have 'bash' installed on your system.
 - Adjust the configuration in the script as needed.
+- If an error 'wine: Call from 00006FFFFFC1CF77 to unimplemented function msvcp140_atomic_wait.dll.__std_atomic_wait_get_deadline, aborting' occurs, Please change the value of enableStatistics in plugins/LeviLamina/config/Config.json to false and restart.
+- If you encounter other errors, restarting will resolve the issue.
 
 ## 🤝 Contribute
 

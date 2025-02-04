@@ -33,6 +33,8 @@ LeviBox 利用 Linux 容器技术，为您提供一个简单的运行脚本，�
 
 - 确保您的系统中已安装 `bash`。
 - 请根据需要调整脚本中的相关配置。
+- 如果遇到报错wine: Call from 00006FFFFFC1CF77 to unimplemented function msvcp140_atomic_wait.dll.__std_atomic_wait_get_deadline, aborting,请把plugins/LeviLamina/config/Config.json中的enableStatistics的值改为false，并重启。
+- 如果遇到其他报错，重启即可解决
 
 ## 🤝 贡献
 

@@ -5,9 +5,9 @@ function start_container() {
   CWD=$(pwd)
   bin/proot \
     -0 \
-    -r $CWD/rootfs \
+    -r /home/container/levibox/rootfs \
     -b /proc:/proc \
-    -b ../:/root \
+    -b /home/container:/root \
     /usr/bin/env \
     -i PATH=$PATH:/usr/local/bin \
     HOME=/root \

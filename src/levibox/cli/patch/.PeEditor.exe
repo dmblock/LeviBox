@@ -1,0 +1,3 @@
+#! /bin/ash
+
+WINEDEBUG=-all wine64 PeEditor.exe $@

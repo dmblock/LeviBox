@@ -19,6 +19,7 @@ LeviBox 利用 Linux 容器技术，为您提供一个简单的运行脚本，�
 
 1. **下载最新版本**  
    访问 [Releases](https://github.com/dmblock/levibox/releases)，下载最新的 `levibox.zip` 文件 📥。
+   一般情况只需要下载cli版本，同时提供了面板服的适配版本
 
 2. **解压文件**  
    将下载的文件解压到您希望安装 LeviLamina 的目录 🗂️。
